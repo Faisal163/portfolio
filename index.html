@@ -67,6 +67,8 @@
 
 
       </div>
+      <div id="google_element"></div>
+       <script src="http://translate.google.com/translate_a/element.js?cb=LoadGoogleTranslate"></script>
     </div>
   </section><!-- End Hero -->
 
@@ -794,6 +796,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+<script>
+function LoadGoogleTranslate() {
+  new google.translate.TranslateElement("google_element");
+}
+</script>
 
 </body>
 
